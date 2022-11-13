@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>JavaScript const</h2>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        const mobile = ["apple", "iphone", "oppo"];
+        document.getElementById("demo").innerHTML = mobile;
+        mobile[1] = "OnePlus";
+
+        mobile.push("Motto");
+        document.getElementById("demo1").innerHTML = mobile;
+    </script>
+</body>
+
+</html>
